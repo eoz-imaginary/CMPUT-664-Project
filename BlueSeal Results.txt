@@ -1,0 +1,205 @@
+BlueSeal Results
+
+-------------------------------
+
+Total tested: 50 APKs from list provided by authors (manually downloaded)
+Total crashed: 36/50
+Total finished: 14/50
+
+-------------------------------
+
+Crashed:
+
+- Staples (OutOfMemoryException, gc overhead exceeded)
+- PBS kids (Attempt to create Var Node of type byte)
+- Avast antivirus (OutOfMemoryException, gc overhead exceeded)
+- Plants Vs Zombies (no method source set for method void Shutdown())
+- Asos (no method source set for int compare())
+- Bit torrent (OutOfMemoryException, gc overhead exceeded)
+- Chrome (Could not find type of array from statement '$u3[$u2#4] = $u0#6')
+- DropBox (no method source set for int compare())
+- ESPN (OOME)
+- Evernote (attempt to create Var Node of type char)
+- Fitbit (no method source set for int compare())
+- Mapquest (no method source set for int compare())
+- Craigslist (OOME, java heap space)
+- Fandango (no method source set for int compare())
+- Temple Run (ResolutionFailedException in getNoBackupFilesDir which has wrong static-ness)
+- Google play store (OOME, gc overhead exceeded)
+- Groupon (no method source set for int compare() )
+- HBO now (no method source set for int compare) )
+- LegoTV (ran for 24+ hours)
+- Onstar (no method source set for void run() )
+- NBC sports (no method source set for int compare() )
+- NBC sports scores (no method source set for int compare() )
+- NFL fantasy (no method source set for int compare() )
+- NHL (no method source set for int compare() )
+- Nike (no method source set for int compare() )
+- Nike run club (OOME, gc overhead exceeded)
+- Papa John’s (no method source set for int compare() )
+- Opera browser (ran for 24+ hours)
+- Kmart (no method source set for int compare() )
+- Paypal business (int compare() )
+- Paypal mobile (int compare() )
+- Period Tracker (OOME, gc overhead)
+- Safeway (int compare() )
+- Showtime Anytime (int compare() )
+- Sonos (ran for 24+ hours)
+- Tracfone (no method source set for void run() )
+
+-------------------------------
+
+Finished:
+
+- Adobe Reader
+flow permission:PHONE_STATE->storage
+flow permission:PHONE_STATE->network
+flow permission:Storage->storage
+flow permission:PHONE_STATE->log
+
+- Adobe PS Express:
+flow permission:FINE_LOCATION->log
+flow permission:content provider->log
+flow permission:Personal Data->network
+flow permission:FINE_LOCATION->storage
+flow permission:Storage->storage
+flow permission:Personal Data->log
+flow permission:content provider->network
+flow permission:FINE_LOCATION->intent
+flow permission:Personal Data->intent
+flow permission:content provider->storage
+flow permission:Personal Data->storage
+flow permission:content provider->intent
+
+- Crunchyroll Manga:
+flow permission:Storage->intent
+flow permission:Storage->storage
+flow permission:Storage->log
+flow permission:Storage->network
+
+- Facebook Groups:
+No blueseal results?
+
+- Facebook Pages:
+No blueseal results?
+
+- Watch ESPN:
+flow permission:PHONE_STATE->storage
+flow permission:FINE_LOCATION->log
+flow permission:PHONE_STATE->intent
+flow permission:FINE_LOCATION->network
+flow permission:PHONE_STATE->network
+flow permission:FINE_LOCATION->storage
+flow permission:FINE_LOCATION->intent
+flow permission:PHONE_STATE->log
+
+- ESPN radio:
+flow permission:FINE_LOCATION->log
+flow permission:content provider->log
+flow permission:PHONE_STATE->intent
+flow permission:Personal Data->network
+flow permission:Personal Data->log
+flow permission:Personal Data->content provider
+flow permission:PHONE_STATE->log
+flow permission:Personal Data->intent
+flow permission:content provider->content provider
+flow permission:Personal Data->storage
+flow permission:content provider->storage
+flow permission:content provider->intent
+
+- Glassdoor:
+flow permission:FINE_LOCATION->log
+flow permission:content provider->log
+flow permission:Personal Data->network
+flow permission:Personal Data->log
+flow permission:Personal Data->content provider
+flow permission:content provider->network
+flow permission:Personal Data->intent
+flow permission:content provider->content provider
+flow permission:Personal Data->storage
+flow permission:content provider->storage
+flow permission:content provider->intent
+flow permission:"https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps"->log
+
+- Google Earth:
+flow permission:GET_ACCOUNTS->network
+flow permission:Storage->intent
+flow permission:GET_ACCOUNTS->storage
+flow permission:Storage->storage
+flow permission:Storage->log
+flow permission:Storage->network
+flow permission:GET_ACCOUNTS->intent
+flow permission:GET_ACCOUNTS->log
+
+- NBC Sports Talk:
+flow permission:PHONE_STATE->storage
+flow permission:PHONE_STATE->network
+flow permission:Storage->storage
+flow permission:Storage->log
+flow permission:PHONE_STATE->log
+
+- The Walking Dead:
+flow permission:FINE_LOCATION->log
+flow permission:Personal Data->network
+flow permission:FINE_LOCATION->storage
+flow permission:Storage->storage
+flow permission:Personal Data->log
+flow permission:Storage->log
+flow permission:FINE_LOCATION->intent
+flow permission:Personal Data->intent
+flow permission:Personal Data->storage
+flow permission:COARSE_LOCATION->log
+flow permission:COARSE_LOCATION->storage
+
+- Metro name ID:
+flow permission:FINE_LOCATION->log
+flow permission:FINE_LOCATION->network
+flow permission:FINE_LOCATION->storage
+flow permission:Storage->log
+flow permission:PHONE_STATE->log
+flow permission:COARSE_LOCATION->log
+flow permission:content provider->intent
+flow permission:content provider->log
+flow permission:COARSE_LOCATION->network
+flow permission:PHONE_STATE->content provider
+flow permission:PHONE_STATE->network
+flow permission:content provider->network
+flow permission:COARSE_LOCATION->content provider
+flow permission:content provider->mms
+flow permission:Storage->storage
+flow permission:content://sms->log
+flow permission:PHONE_STATE->storage
+flow permission:PHONE_STATE->intent
+flow permission:COARSE_LOCATION->intent
+flow permission:FINE_LOCATION->intent
+flow permission:PHONE_STATE->mms
+flow permission:"content://mms-sms/spamnumber"->content provider
+flow permission:content provider->content provider
+flow permission:content provider->storage
+flow permission:COARSE_LOCATION->storage
+
+- Roku:
+flow permission:"roku://remote_audio/"->intent
+flow permission:Storage->intent
+flow permission:Personal Data->network
+flow permission:"roku://play_on_roku/"->intent
+flow permission:Storage->storage
+flow permission:Storage->log
+flow permission:Personal Data->log
+flow permission:content provider->intent
+flow permission:content provider->log
+flow permission:"roku://widget/id/"->intent
+flow permission:content provider->network
+flow permission:Personal Data->intent
+flow permission:Storage->network
+flow permission:content provider->storage
+flow permission:Personal Data->storage
+
+- Move to IOS:
+flow permission:content provider->log
+flow permission:GET_ACCOUNTS->storage
+flow permission:<android.provider.ContactsContract$Contacts: android.net.Uri CONTENT_URI>->log
+flow permission:Personal Data->log
+flow permission:content provider->storage
+flow permission:Personal Data->storage
+flow permission:GET_ACCOUNTS->log

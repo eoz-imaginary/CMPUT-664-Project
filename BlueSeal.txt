@@ -1,0 +1,20 @@
+Platform: Windows 10
+
+Reviewer skill level: Intermediate
+
+- I am skilled at debugging & finding workarounds
+- I can build complex software like GCC
+
+Sequence of steps to build:
+1) Install BlueSeal from MultiFlow GitHub repo
+---> BlueSeal artifact from official BlueSeal repo does not build!
+2) Call BlueSeal using Multiflow with the following command:
+---> java -cp multiflowAPI.jar edu.buffalo.cse.blueseal.main.Main <path/to/some/APK>
+
+
+Detailed evaluation: 
+BlueSeal builds without error, but was noted to crash with a variety of runtime exceptions on 72% of all Android APKs tested. However, the remaining 28% of APKs analyzed produced the anticipated results that matched the data provided by the authors.
+
+Verification status: finished
+
+Note: Due to the artifact producing the correct results over 25% of the time, this artifact is tentatively marked as reproducible. However, due to the numerous runtime errors encountered, this "finished" result must be taken with a very large grain of salt.

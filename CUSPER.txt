@@ -1,0 +1,18 @@
+Platform: Windows 10
+
+Reviewer skill level: Intermediate
+
+- I am skilled at debugging & finding workarounds
+- I can build complex software like GCC
+
+Sequence of steps to build:
+1) Install Alloy analyzer
+2) Import CUSPER verification artifact
+3) Remove the "open util/integer as integer" line from android-permission.als
+4) Remove the "private open util/integer as integer" line from natural.als (will open automatically after executing program after completing step 3)
+5) Build program
+
+Detailed evaluation: 
+After removing the import statements that caused several syntax errors, the program builds immediately and produces the expected results. 
+
+Verification status: finished

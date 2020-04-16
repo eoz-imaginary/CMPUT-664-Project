@@ -1,0 +1,16 @@
+Platform: Linux Mint
+
+Reviewer skill level: Intermediate
+
+- I am skilled at debugging & finding workarounds
+- I can build complex software like GCC
+
+Sequence of steps to build:
+1) mkdir <android_class_dir> #create new directory under PScout dir
+2) cd <android_class_dir>
+3) ../bin/setupanalysis.sh <android_dir> #<android_dir> is root directory of android source code)
+
+Detailed evaluation: 
+- Step 3 fails with a "no such file or directory" error. PScout is specifically looking for the directory <android_dir>/frameworks/base/core/, which does not exist in any official android version.
+
+Verification status: failed

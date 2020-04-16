@@ -1,0 +1,16 @@
+Platform: Windows 10
+
+Reviewer skill level: Intermediate
+
+- I am skilled at debugging & finding workarounds
+- I can build complex software like GCC
+
+Sequence of steps to build:
+1) Call PScout.java with int in range (1-3)
+
+
+Detailed evaluation: 
+There is no documentation for what the purpose of the command line argument is. Upon examination of the code it seems to be related to different "steps" the program will execute. However, calling an integer results in a no such file or directory error for a file that has been hardcoded into one of the java class files.
+
+
+Verification status: failed
